@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+// ::-webkit-scrollbar{
+//     width: 16px;
+// }
+// ::-webkit-scrollbar-track{
+//     background: $bg-color;
+// }
+
+// ::-webkit-scrollbar-thumb{
+//     background: $bg-tertiary;
+//     border-radius: 20px;
+//     padding-right: 10px;
+//     border: 5px solid $bg-color;
+// }
+
+body {
+  color: $primary-color;
+  font-family: $font;
+  background: $bg-color;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+    text-decoration: none; 
+    &:visited{
+        color: $primary-color;
+    }
+}
