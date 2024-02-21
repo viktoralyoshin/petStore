@@ -2,9 +2,9 @@
   <div class="nav-bar-container">
     <NuxtLink to="/"><NuxtImg src="icon.png" sizes="75px"></NuxtImg></NuxtLink>
     <div class="nav-links-container">
-      <a href="#">Новинки</a>
-      <a href="#">Товары</a>
-      <a href="#">О компании</a>
+      <a href="#new">Новинки</a>
+      <a href="#items">Товары</a>
+      <a href="#company">О компании</a>
       <div class="sign-buttons">
         <a href="#" id="signin">Вход</a>
         <a href="#">Регистрация</a>
@@ -45,8 +45,7 @@
         color: white;
         &:hover{
           border-color: #be6127;
-          background-color: #be6127;
-;  
+          background-color: #be6127; 
         }
       }
     }

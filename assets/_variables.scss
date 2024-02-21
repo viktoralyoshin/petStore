@@ -1,16 +1,24 @@
 $bg-color: white;
-$primary-color: #170C04;
-$secondary-color: #E27B3A;
-$font: 'Manrope', sans-serif;
+$primary-color: #170c04;
+$secondary-color: #e27b3a;
+$font: "Manrope", sans-serif;
 
-// @mixin respond-to($media) {
-//     @if $media == handhelds {
-//       @media only screen and (max-width: 479px) { @content; }
-//     }
-//     @else if $media == wide-handhelds {
-//       @media only screen and (max-width: 767px) { @content; }
-//     }
-//     @else if $media == tablets {
-//       @media only screen and (min-width: 768px) and (max-width: 959px) { @content; }
-//     }
-//   }
+@mixin respond-to($media) {
+  @if $media == handhelds {
+    @media only screen and (max-width: 479px) {
+      @content;
+    }
+  } @else if $media == wide-handhelds {
+    @media only screen and (max-width: 767px) {
+      @content;
+    }
+  } @else if $media == tablets {
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+      @content;
+    }
+  } @else if $media == wide-tablets {
+    @media only screen and (max-width: 1200px) {
+      @content;
+    }
+  }
+}
