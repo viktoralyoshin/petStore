@@ -20,12 +20,12 @@
             </div>
           </div>
           <div class="item-action">
-            <NuxtImg
+            <img
               id="item-img"
               :src="item.image"
               width="240px"
               height="390px"
-            ></NuxtImg>
+            >
             <div class="item-action-info">
               <p id="price">
                 <b>{{ item.price }} ₽</b>

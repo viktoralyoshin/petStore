@@ -3,7 +3,7 @@
     <div class="banner-content">
       <div class="banner-text">
         <h2>Animalerie</h2>
-        <h1>Выгодно и точка</h1>
+        <h1><span>#</span>Выгодно и точка</h1>
       </div>
       <NuxtImg id="banner-img" src="dog.png" width="550px"></NuxtImg>
     </div>
@@ -35,10 +35,13 @@
     }
     .banner-text {
       h1 {
-        font-size: 62px;
+        font-size: 60px;
       }
       h2 {
         font-size: 36px;
+        color: $secondary-color;
+      }
+      span{
         color: $secondary-color;
       }
     }
